@@ -1,0 +1,42 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+}
+
+.little_form {
+    display: flex;
+    width: 646px;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.textField {
+    display: flex;
+    height: 56px;
+    align-items: center;
+    flex: 1 0 0;
+    border-radius: 8px;
+    background: var(--14-others-input, rgba(145, 158, 171, 0.08));
+}
+
+.textFieldlong {
+    display: flex;
+    width: 646px;
+    height: 56px;
+    padding: 0px 550px 2px 0px;
+    align-items: center;
+    border-radius: 8px;
+    background: var(--14-others-input, rgba(145, 158, 171, 0.08));
+}
+@media(max-width:576px){
+    .little_form{
+        width: 50%;
+    }
+    .textFieldlong{
+        width: 100%;
+        padding: 0px 150px 2px 0px;
+    }
+}

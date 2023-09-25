@@ -1,0 +1,175 @@
+.footer {
+    display: flex;
+    padding: 80px 144px 32px 144px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.footer_info {
+    display: flex;
+    padding: 24px 0px;
+    align-items: flex-start;
+    gap: 122px;
+    align-self: stretch;
+}
+
+.title {
+    width: 270px;
+}
+
+.title p {
+    color: var(--11-text-color-light-02-text-secondary, #637381);
+
+    /* Body3 */
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 184.615% */
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+}
+
+.data div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.data div h4 {
+    color: var(--11-text-color-light-01-text-primary, #212B36);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 200% */
+}
+
+.textFielld {
+    display: flex;
+    width: 366px;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.input {
+    display: flex;
+    height: 48px;
+    padding: 0px 199px 2px 0px;
+    align-items: center;
+    flex: 1 0 0;
+    border-radius: 8px;
+    background: var(--14-others-input, rgba(145, 158, 171, 0.08));
+}
+
+.input_email {
+    display: flex;
+    padding: 10px 0px 10px 12px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.input_email:focus {
+    border: none;
+    outline: none;
+}
+
+.btn {
+    display: flex;
+    width: 48px;
+    height: 48px;
+    padding: 4px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: var(--01-primary-03-main, #FA541C);
+
+}
+
+.masanger_leader {
+    display: flex;
+}
+
+.masanger {
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.help {
+    display: flex;
+    width: 1152px;
+    padding-top: 80px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.help div {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+@media(max-width:576px) {
+
+    .footer,
+    .footer_info {
+        display: flex;
+        padding: 64px 20px 24px 20px;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        align-self: stretch;
+    }
+
+    .textFielld {
+        width: 100%;
+    }
+
+    .title {
+        width: 335px;
+        text-align: center;
+    }
+
+    .input {
+        display: flex;
+        width: 5px;
+        height: 48px;
+        padding: 0px 224px 2px 0px;
+        align-items: center;
+        flex-shrink: 0;
+    }
+
+    .btn {
+        display: flex;
+        width: 39.067px;
+        height: 40px;
+        padding: 4px 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        flex-shrink: 0;
+    }
+
+    .help {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+    }
+}

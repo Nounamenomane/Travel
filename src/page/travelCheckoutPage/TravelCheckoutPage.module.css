@@ -1,0 +1,495 @@
+.travelCheckout {
+    display: flex;
+    width: 1440px;
+    padding: 80px 144px 120px 144px;
+    align-items: flex-start;
+    gap: 64px;
+    background: var(--12-background-light-01-default, #FFF);
+}
+
+input:focus {
+    outline: none;
+}
+
+.confrimAndPay {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    flex: 1 0 0;
+}
+
+.confrim {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.title {
+    color: var(--11-text-color-light-01-text-primary, #212B36);
+
+    /* H2 heading */
+    font-family: Barlow;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    /* 133.333% */
+}
+
+.onformation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.onformation div {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.addressP {
+    color: var(--11-text-color-light-02-text-secondary, #637381);
+
+    /* Overline */
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    /* 166.667% */
+    text-transform: uppercase;
+}
+
+.shipping {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.address {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.address div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.address p {
+    color: var(--11-text-color-light-02-text-secondary, #637381);
+
+    /* Overline */
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    /* 166.667% */
+    text-transform: uppercase;
+}
+
+.address div h2 {
+    color: var(--11-text-color-light-01-text-primary, #212B36);
+    text-align: right;
+
+    /* Body2 */
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 185.714% */
+}
+
+.pay {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.pay_title {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.paypal {
+    display: flex;
+    width: 646px;
+    padding: 24px 20px 24px 8px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 12px;
+    border: 1px solid var(--14-others-divider, rgba(145, 158, 171, 0.24));
+    background: var(--12-background-light-02-paper, #FFF);
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    flex: 1 0 0;
+}
+
+.paypal input {
+    display: flex;
+    width: 5%;
+    height: 20px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.desc h2 {
+    color: var(--11-text-color-light-01-text-primary, #212B36);
+
+    /* H6 heading */
+    font-family: Barlow;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    /* 155.556% */
+}
+
+.desc p {
+    color: var(--11-text-color-light-02-text-secondary, #637381);
+
+    /* Body3 */
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 184.615% */
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    width: 646px;
+    /* align-items: center; */
+    align-self: stretch;
+    border-radius: 12px;
+    border: 1px solid var(--14-others-divider, rgba(145, 158, 171, 0.24));
+    background: var(--12-background-light-02-paper, #FFF);
+
+    /* 01 Shadows/Light/z24 */
+    box-shadow: -24px 24px 72px -8px rgba(145, 158, 171, 0.24);
+}
+
+.credit {
+    display: flex;
+    padding: 24px 20px 24px 8px;
+    align-items: center;
+    gap: 8px;
+}
+
+.credit_title {
+    display: flex;
+    width: 482px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.card {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.credit_title h1 {
+    color: var(--11-text-color-light-01-text-primary, #212B36);
+
+    /* H6 heading */
+    font-family: Barlow;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    /* 155.556% */
+}
+
+.credit_title p {
+    color: var(--11-text-color-light-02-text-secondary, #637381);
+
+    /* Body3 */
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 184.615% */
+}
+
+.card_info {
+    display: flex;
+    padding: 0px 24px 24px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.cardNumber,
+.cardHolder {
+    display: flex;
+    height: 56px;
+    padding: 0px 435px 1px 0px;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 8px;
+    background: var(--14-others-input, rgba(145, 158, 171, 0.08));
+}
+
+.card_info h2 {
+    color: var(--11-text-color-light-03-text-disabled, #919EAB);
+
+    /* Caption */
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 166.667% */
+}
+
+.cardDate {
+    display: flex;
+    height: 56px;
+    padding: 0px 110px 1px 0px;
+    align-items: center;
+    flex: 1 0 0;
+    border-radius: 8px;
+    background: var(--14-others-input, rgba(145, 158, 171, 0.08));
+}
+
+.cardsDate {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.cardBooking {
+    display: flex;
+    width: 442px;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: var(--12-background-light-02-paper, #FFF);
+
+    /* 01 Shadows/Light/z16 */
+    box-shadow: -16px 16px 56px -8px rgba(145, 158, 171, 0.16);
+}
+
+.cardCheck {
+    display: flex;
+    padding: 32px 32px 0px 32px;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.cardCheck img {
+    border-radius: 10px;
+}
+
+.cardBooking_title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    flex: 1 0 0;
+}
+
+.cardBooking_title h1 {
+    color: var(--11-text-color-light-01-text-primary, #212B36);
+
+    /* H5 heading */
+    font-family: Barlow;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    /* 150% */
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.review div {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.user p {
+    color: var(--11-text-color-light-03-text-disabled, #919EAB);
+
+    /* Caption */
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 166.667% */
+}
+
+.user h2 {
+    color: var(--11-text-color-light-01-text-primary, #212B36);
+
+    /* Subtitle2 */
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    /* 185.714% */
+}
+
+.data {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    gap: 20px;
+    align-self: stretch;
+    border-radius: 16px;
+    background: var(--12-background-light-03-neutral, #F9FAFB);
+}
+
+.dataPlace {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    flex: 1 0 0;
+}
+
+.dataPlace p {
+    color: var(--11-text-color-light-03-text-disabled, #919EAB);
+
+    /* Caption */
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 166.667% */
+}
+
+.dataPlace h2 {
+    color: var(--11-text-color-light-01-text-primary, #212B36);
+
+    /* H6 heading */
+    font-family: Barlow;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    /* 155.556% */
+}
+
+@media(max-width:576px) {
+    .travelCheckout {
+        flex-direction: column;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .confrimAndPay {
+        width: 100%;
+    }
+
+    .onformation div {
+        align-items: baseline;
+    }
+
+    .address {
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    .paypal {
+        width: 100%;
+    }
+
+    .cards {
+        width: 100%;
+    }
+
+    .cardNumber,
+    .cardHolder {
+        padding: 0px 135px 1px 0px
+    }
+
+    .cardDate {
+        padding: 0px 50px 1px 0px;
+    }
+
+    .credit_title {
+        width: 100%;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    .cardBooking {
+        width: 100%;
+    }
+
+    .cardCheck {
+        flex-direction: column;
+    }
+
+    .img_ratio {
+        width: 100%;
+    }
+
+    .data {
+        flex-direction: column;
+        align-items: baseline;
+        padding: 40px;
+    }
+
+    .title {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    h1 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .none {
+        display: none;
+    }
+}

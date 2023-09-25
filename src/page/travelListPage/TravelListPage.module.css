@@ -1,0 +1,19 @@
+.filter {
+    padding: 80px 144px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 144px;
+    gap: 40px;
+}
+@media(max-width:576px) {
+    .filter {
+        padding: 20px;
+    }
+
+    .card {
+        padding: 40px;
+    }
+}

@@ -1,0 +1,76 @@
+.latestPostCard {
+    display: flex;
+    padding: 120px 144px;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    background: var(--12-background-light-01-default, #FFF);
+}
+
+.latestCard {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.title {
+    display: flex;
+    width: 1152px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title h1 {
+    color: var(--11-text-color-light-01-text-primary, #212B36);
+
+    /* H2 heading */
+    font-family: Barlow;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    /* 133.333% */
+}
+
+.title div {
+    display: flex;
+    padding: 6px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+}
+
+.title p {
+    color: var(--01-primary-03-main, #FA541C);
+    text-align: center;
+
+    /* 01 ButtonText/02 Medium */
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    /* 171.429% */
+}
+
+@media(max-width:576px) {
+    .latestPostCard{
+        padding: 100px;
+    }
+    .title {
+        width: 100%;
+    }
+
+    .latestCard {
+        flex-direction: column;
+    }
+    .title div{
+        display: none;
+    }
+    .title h1{
+        font-size: 34px;
+        line-height: 46px;
+    }
+}

@@ -1,0 +1,63 @@
+.card {
+    display: flex;
+    height: 517px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+    border-radius: 16px;
+    background: var(--12-background-light-01-default, #FFF);
+}
+
+.date {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.card h1 {
+    color: var(--11-text-color-light-01-text-primary, #212B36);
+
+    /* H5 heading */
+    font-family: Barlow;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    /* 150% */
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.avatar p {
+    color: var(--11-text-color-light-01-text-primary, #212B36);
+
+    /* Body2 */
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 185.714% */
+}
+
+img {
+    border-radius: 10px;
+}
+
+.date p {
+    color: var(--11-text-color-light-03-text-disabled, #919EAB);
+
+    /* Caption */
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 166.667% */
+}

@@ -1,0 +1,102 @@
+.reviews {
+    display: flex;
+    padding: 32px 0px;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.review_card {
+    display: flex;
+    width: 678px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.desc {
+    display: flex;
+    padding: 4px 0px 8px 0px;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.btn {
+    display: flex;
+    padding: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+.title h1 {
+    color: var(--11-text-color-light-01-text-primary, #212B36);
+
+    /* Subtitle2 */
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    /* 185.714% */
+}
+
+.date {
+    color: var(--11-text-color-light-02-text-secondary, #637381);
+
+    /* Body3 */
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 184.615% */
+}
+
+.desc p {
+    color: var(--11-text-color-light-01-text-primary, #212B36);
+
+    /* Body2 */
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 185.714% */
+}
+
+.btn h2 {
+    color: var(--11-text-color-light-01-text-primary, #212B36);
+
+    /* 01 ButtonText/03 Small */
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    /* 169.231% */
+}
+
+.btn:hover {
+    background-color: black;
+}
+
+.btn h2:hover {
+    color: white;
+}
+
+@media(max-width:576px) {
+    .review_card {
+        width: 100%;
+    }
+}

@@ -1,0 +1,164 @@
+.travelCompleted {
+    display: flex;
+    width: 1440px;
+    padding: 80px 144px 120px 144px;
+    align-items: flex-start;
+    gap: 80px;
+    background: var(--12-background-light-01-default, #FFF);
+}
+
+.img_ratio img {
+    border-radius: 10px;
+}
+
+.travelCompleted p {
+    color: var(--11-text-color-light-03-text-disabled, #919EAB);
+    text-align: center;
+
+    /* Body2 */
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 185.714% */
+}
+
+.completed {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    flex: 1 0 0;
+    border-radius: 16px;
+}
+
+.reviews {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.grade {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.BookingDetails {
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+}
+
+.btn1 {
+    display: flex;
+    padding: 11px 22px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px solid var(--14-others-button, rgba(145, 158, 171, 0.32));
+}
+
+.btn2 {
+    display: flex;
+    padding: 11px 22px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    background: var(--01-primary-03-main, #FA541C);
+}
+
+.btn1 p {
+    color: var(--11-text-color-light-01-text-primary, #212B36);
+
+    /* 01 ButtonText/01 Large */
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    /* 173.333% */
+}
+
+.btn2 p {
+    color: var(--08-common-01-white, #FFF);
+
+    /* 01 ButtonText/01 Large */
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    /* 173.333% */
+}
+
+.btn1:hover {
+    background-color: #FA541C;
+    text-decoration: underline;
+}
+
+.btn2:hover {
+    background-color: #212B36;
+}
+
+@media(max-width:576px) {
+    .travelCompleted {
+        width: 100%;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .img_ratio {
+        display: none;
+    }
+
+    .reviews {
+        flex-direction: column;
+    }
+
+    .BookingDetails {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .btns {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn1 {
+        padding: 11px 100px;
+    }
+
+    .btn2 {
+        padding: 11px 80px;
+    }
+}

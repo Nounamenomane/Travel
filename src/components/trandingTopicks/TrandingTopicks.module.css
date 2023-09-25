@@ -1,0 +1,60 @@
+.overlay {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    transition: opacity 0.3s;
+}
+
+.hovered {
+    opacity: 1;
+}
+
+.hover_text {
+    position: absolute;
+    top: 60%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    animation: slideFromRight 0.5s ease forwards;
+}
+
+.fadeIn {
+    opacity: 1;
+}
+
+.title h3 {
+    color: var(--08-common-01-white, #FFF);
+    text-align: center;
+
+    /* H5 heading */
+    font-family: Barlow;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    /* 150% */
+}
+
+.title {
+    display: flex;
+    width: 270px;
+    padding: 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+@keyframes slideFromRight {
+    0% {
+        right: -100%;
+        opacity: 0;
+    }
+
+    100% {
+        /* right: 0%; */
+        left: 30%;
+        opacity: 1;
+    }
+}

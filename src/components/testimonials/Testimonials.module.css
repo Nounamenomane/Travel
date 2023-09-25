@@ -1,0 +1,165 @@
+.travel_testimonials {
+    display: flex;
+    padding: 120px 144px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 80px;
+}
+
+.people {
+    display: flex;
+    width: 1152px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testimonials_desc {
+    display: flex;
+    width: 564px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    flex-shrink: 0;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.desc {
+    display: flex;
+    padding: 16px 0px 40px 0px;
+    align-items: flex-start;
+}
+
+.person {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.testimonials_desc h1 {
+    color: var(--11-text-color-light-01-text-primary, #212B36);
+
+    /* H2 heading */
+    font-family: Barlow;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    /* 133.333% */
+}
+
+.desc p {
+    color: var(--11-text-color-light-01-text-primary, #212B36);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    /* 180% */
+}
+
+.person p {
+    color: var(--11-text-color-light-01-text-primary, #212B36);
+
+    /* H6 heading */
+    font-family: Barlow;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    /* 155.556% */
+}
+
+.img {
+    display: flex;
+    height: 288px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 40px;
+}
+
+.img2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.btns {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.btn {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.btn:hover {
+    background-color: black;
+}
+
+.img img:hover {
+    transform: scale(1.5);
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+@media(max-width:576px) {
+    .img {
+        display: none;
+    }
+
+    .travel_testimonials {
+        padding: 80px 20px;
+        /* align-items: center; */
+        flex-direction: column;
+        gap: 64px;
+    }
+
+    .testimonials_desc {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        align-self: stretch;
+        width: 100%;
+    }
+
+    .people {
+        width: 100%;
+    }
+
+    .testimonials_desc h1 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .testimonial {
+        display: flex;
+        padding: 16px 0px 40px 0px;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+    }
+
+    .btns {
+        margin-left: 130px;
+    }
+}

@@ -1,0 +1,37 @@
+/* SelectPage.module.css */
+.selectContainer {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.selectContainer select {
+    padding: 10px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: transparent;
+    color: #333;
+    cursor: pointer;
+    transition: border-color 0.3s, background-color 0.3s;
+}
+
+.select:hover {
+    border-color: #2980b9;
+    background-color: #e0e0e0;
+}
+
+.select:focus {
+    outline: none;
+    border-color: #3498db;
+    background-color: #e0e0e0;
+}
+
+/* Стили для опций */
+.option {
+    color: var(--11-text-color-light-01-text-primary, #212B36);
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}

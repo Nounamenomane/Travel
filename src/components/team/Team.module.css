@@ -1,0 +1,26 @@
+.masanders {
+    display: flex;
+    gap: 18px;
+}
+
+.overlay_desc {
+    display: flex;
+    padding-top: 24px;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.masander {
+    display: flex;
+    width: 28px;
+    height: 28px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color: transparent;
+}
+
+.masander:hover {
+    background-color: black;
+}

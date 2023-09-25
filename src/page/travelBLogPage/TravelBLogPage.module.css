@@ -1,0 +1,153 @@
+.overlay {
+    display: flex;
+    width: 1440px;
+    padding: 80px 144px;
+    align-items: flex-start;
+    gap: 24px;
+    background: var(--12-background-light-01-default, #FFF);
+}
+
+.overlay_small {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex: 1 0 0;
+}
+
+.overlay_small div {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.trendingTopics {
+    display: flex;
+    padding: 80px 144px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+}
+
+.trendingTopics_card {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.trendingTopics_card_adaptiv {
+    display: none;
+}
+
+.btns {
+    display: none;
+}
+
+.solo_title {
+    display: flex;
+    padding: 80px 144px 48px 144px;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.solo_title h1 {
+    color: var(--11-text-color-light-01-text-primary, #212B36);
+
+    /* H3 heading */
+    font-family: Barlow;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px;
+    /* 150% */
+}
+
+/* 
+.post_title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+} */
+
+.blog {
+    display: flex;
+    padding: 0px 144px;
+    align-items: flex-start;
+    gap: 64px;
+    align-self: stretch;
+}
+
+.blog_card {
+    display: flex;
+    width: 746px;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    flex: 1 0 0;
+}
+
+@media(max-width:576px) {
+    .overlay {
+        display: none;
+    }
+
+    .trendingTopics {
+        padding: 20px;
+        align-items: center;
+    }
+
+    .trendingTopics_card {
+        flex-direction: column;
+    }
+
+    .trendingTopics_card_adaptiv {
+        display: block;
+    }
+
+    .btns {
+        display: block;
+        display: flex;
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    .btn {
+        display: flex;
+        width: 40px;
+        height: 40px;
+        padding: 8px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+    }
+
+    .trendingTopics_card {
+        display: none;
+    }
+
+    .blog {
+        padding: 20px;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .blog_card {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .solo_title {
+        padding: 20px;
+    }
+
+    .solo_title h1 {
+        font-size: 24px;
+    }
+}

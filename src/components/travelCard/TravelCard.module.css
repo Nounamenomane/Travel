@@ -1,0 +1,42 @@
+.cityCard {
+    display: flex;
+    width: 100%;
+    padding: 24px;
+    align-items: center;
+    gap: 20px;
+    border-radius: 16px;
+    border: 1px solid var(--14-others-divider, rgba(145, 158, 171, 0.24));
+    background: var(--12-background-light-01-default, #FFF);
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.title {
+    color: var(--11-text-color-light-01-text-primary, #212B36);
+
+    /* H6 heading */
+    font-family: Barlow;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    /* 155.556% */
+}
+
+.place {
+    color: var(--11-text-color-light-03-text-disabled, #919EAB);
+
+    /* Body3 */
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 184.615% */
+}

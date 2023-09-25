@@ -1,0 +1,54 @@
+.masangers {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.masangers div {
+    display: flex;
+    gap: 8px;
+}
+
+.masanger,
+.Instagram {
+    display: flex;
+    padding: 4px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px solid var(--14-others-social-facebook, #1877F2);
+}
+
+.masanger,
+.Instagram {
+    color: var(--14-others-social-facebook, #1877F2);
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    /* 169.231% */
+}
+
+.masanger:hover {
+    background-color: black;
+}
+
+.Instagram:hover {
+    background-color: black;
+}
+
+.Instagram {
+    border: 1px solid var(--14-others-social-instagram, #E02D69);
+}
+
+.Instagram p {
+    color: var(--14-others-social-instagram, #E02D69);
+}
+
+@media(max-width:576px){
+    .masangers{
+        flex-direction: column;
+    }
+}
