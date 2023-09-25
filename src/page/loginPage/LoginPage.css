@@ -23,6 +23,10 @@ a:hover {
     color: #c4c3ca;
 }
 
+.link {
+    background-color: transparent;
+}
+
 p {
     font-weight: 500;
     font-size: 14px;
@@ -37,6 +41,7 @@ h6 span {
     font-weight: 700;
     font-size: 15px;
 }
+
 
 .section {
     position: relative;

@@ -56,9 +56,9 @@ const LoginPage = () => {
                             Login
                           </Link>
                           <p className="mb-0 mt-4 text-center">
-                            <a href="#" className="link">
+                            <button className="link">
                               Forgot your password?
-                            </a>
+                            </button>
                           </p>
                         </div>
                       </div>
