@@ -19,7 +19,7 @@ const slides = [
 ]; // Укажите текстовые слайды
 
 function Testimonials() {
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [setCurrentIndex] = useState(0);
 
   const prevSlide = () => {
     setCurrentIndex((prevIndex) =>
